@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-family:var(--font-family-b);
+  width: 100%;
+  height: 100vh;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+:root {
+  --bg-green: #74c69d;
+  --bg-color: #65b6de;
+  --font-family: "Crimson Text", serif;
+  --font-family-s: "Crimson Text", serif;
+  --font-family-b: "Work Sans", serif;
+  --font-white: #fff;
+  --font-big: 2.5rem;
+  --font-dark: #212529;
+  --font-black: #000000;
+  --font-green: #f2faf6;
+  --shadow-1: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
