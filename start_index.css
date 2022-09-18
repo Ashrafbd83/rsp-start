@@ -5,18 +5,16 @@
 }
 body {
   font-size: 16px;
-  font-family:var(--font-family-b);
+  font-family: var(--font-family-b);
   width: 100%;
   height: 100vh;
-
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 
 :root {
   --bg-green: #74c69d;
   --bg-color: #65b6de;
-  --font-family: "Crimson Text", serif;
   --font-family-s: "Crimson Text", serif;
   --font-family-b: "Work Sans", serif;
   --font-white: #fff;
@@ -30,4 +28,20 @@ body {
 .container {
   margin-left: 4rem;
   margin-right: 4rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--font-white);
+}
+.btn {
+  padding: 0.6rem 2rem;
+  border: 0.1rem solid var(--font-black);
+  background: var(--font-dark);
+  border-radius: 0.5rem;
+  font-family: var(--font-family-b);
+  display: inline-block;
+}
+.btn:hover {
+  background: var(--font-black);
 }

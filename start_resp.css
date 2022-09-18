@@ -1,0 +1,45 @@
+@media (max-width: 1440px) {
+}
+@media (max-width: 992px) {
+  .team_area .cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  header .header_area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .exploer_section .explore {
+    flex-direction: column;
+    align-items: center;
+  }
+  .exploer_section2 .explore {
+    flex-direction: column;
+    align-items: center;
+  }
+  .team_area .cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  footer .footer_section{
+    flex-direction: column;
+    }
+}
+@media (max-width: 686px) {
+  .team_area .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+ 
+}
+@media (max-width: 500px) {
+  .team_area .cards {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+}
