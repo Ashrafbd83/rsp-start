@@ -9,6 +9,7 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  padding:1.5rem 0;
 }
 
 .menu_logo {
@@ -312,4 +313,62 @@ footer {
 .btn_submit{
   display: block;
   margin:2rem 2.5rem;
+}
+
+.menu_area a:hover{
+  text-decoration:underline;
+}
+
+.Service_section{
+text-align: center;
+margin:2.5rem 0;
+}
+.Service_section h4 {
+  letter-spacing: 0.5rem;
+  text-transform: uppercase;
+  color: var(--bg-green);
+}
+.Service_section h1 {
+  letter-spacing: 0.5rem;
+  padding: 1rem 0;
+  letter-spacing:normal;
+}
+.Service_section h1 span{
+font-size:0.9rem;
+letter-spacing: normal;
+color:var(--font-dark);
+}
+
+.Service_section p {
+  color: var(--font-dark);
+  margin-bottom: 1.8rem;
+}
+.Service_section .service_cards{
+  display: flex;
+  flex-direction: row;
+  flex:1fr 1fr 1fr;
+  gap:4vw;
+  padding:1.5rem 1.0rem;
+ 
+}
+.Service_section .service_cards .services_card{
+  padding:2rem 1rem;
+  border-radius:0.2rem;
+  box-shadow:0rem 0rem .5rem rgba(0, 0, 0, 0.2),
+  .5rem .5rem .5rem rgba(0, 0, 0, 0.2);
+}
+.services_card .btn{
+ padding:0 1.5rem;
+ background:red;
+}
+.service_list{
+  padding:1.5rem 0;
+   }
+.service_list .item{
+padding:0.2rem;
+ }
+ 
+.service_list .item i{
+ font-size: 0.8rem;
+ margin-right:0.3rem;
 }
